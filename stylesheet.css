@@ -14,6 +14,11 @@ img{
   margin-left: auto;
   margin-right: auto;
 }
+.fbook{
+  width: auto;
+  height: 50px;
+
+}
 
 h1{
   display: block;
@@ -57,4 +62,35 @@ body{
   font-size: large;
 }
 
+a:link{
+  color: rgb(231, 231, 146);
+  text-shadow: 2px 2px 4px black;
+  font-style: italic;
+}
 
+a:hover{
+  color: gold;
+  text-shadow: 2px 2px 4px;
+  font-style: normal;
+  font-size: large;
+}
+
+h4{
+  text-align: center;
+}
+
+.hours{
+  display: grid;
+  text-align: center;
+  text-decoration: none;
+  padding: 14px 16px;
+}
+
+
+footer{
+  justify-content: center;
+  text-align: center;
+  font-size: small;
+  padding-top: 16%;
+  background-color: transparent;
+}
