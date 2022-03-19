@@ -10,9 +10,11 @@ img{
   width: auto;
   height: 200px;
   border-radius: 15%;
+  border-left: 4px;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  border-color: rgb(231, 231, 146);
 }
 .fbook{
   width: auto;
