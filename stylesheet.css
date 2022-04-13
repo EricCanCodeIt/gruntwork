@@ -1,6 +1,6 @@
 
 html{
-  background-color: #48487F;
+  background-color: rgb(12, 41, 99);
   font-family: 'Titillium Web', sans-serif;
 }
 
@@ -12,15 +12,24 @@ img{
   border-radius: 15%;
   border-left: 4px;
   display: flex;
-  justify-content: center;
+  
   margin-left: auto;
   margin-right: auto;
-  filter: drop-shadow(0 0 0.75rem rgb(231, 231, 146));
+  filter: drop-shadow(0 0 1rem rgb(231, 231, 146));
 }
-.fbook{
-  width: auto;
-  height: 50px;
 
+.fbook{
+  height: 50px;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  float: inline-start;
+}
+
+.ttok{
+  height: 50px;
+  width: auto;
+  float: inline-end;
 }
 
 h1{
@@ -31,19 +40,20 @@ h1{
   text-align: center;
 }
 
+
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #48487F;
+    background-color: rgb(12, 41, 99);
 }
   
-  li {
+li {
     float: left;
   }
   
-  li a {
+li a {
     display: block;
     color:rgb(231, 231, 146);
     text-align: center;
@@ -52,10 +62,10 @@ ul {
     text-shadow: 2px 2px 4px black;
   }
 
-  li a:hover{
-    color: #48487F;
+li a:hover{
+    color: rgb(12, 41, 99);
     background-color: rgb(231, 231, 146);
-    text-shadow: 2px 2px 4px #48487F;
+    text-shadow: 2px 2px 4px rgb(12, 41, 99);
   }
 
 body{
@@ -78,6 +88,16 @@ a:hover{
   font-size: large;
 }
 
+#aboutcontainer{
+  text-align: center;
+  align-items: center;
+}
+
+#contactcontainer{
+  text-align: center;
+  align-items: center;
+}
+
 h4{
   text-align: center;
 }
@@ -91,7 +111,7 @@ h4{
 
 
 .foot{
-  align-items: center;
+ 
 }
 
 footer{
